@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contacts
+namespace Chapter2_P66
 {
     static class Program
     {
@@ -12,12 +12,11 @@ namespace Contacts
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
-        static void old_Main()
+        static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-         
     }
 }
